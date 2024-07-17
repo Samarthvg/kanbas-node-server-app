@@ -8,9 +8,12 @@ export default function Lab5(app) {
     res.send("Welcome to Lab 5");
   });
 
+  app.get("/", (res,req) => {
+    res.send(<h2>Kanbas-node-server-app developed by Samarth.</h2>)
+  })
+
   PathParameters(app);
   QueryParameters(app);
   WorkingWithObjects(app);
   WorkingWithArrays(app);
-
 }
