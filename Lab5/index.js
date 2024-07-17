@@ -13,10 +13,4 @@ export default function Lab5(app) {
   WorkingWithObjects(app);
   WorkingWithArrays(app);
 
-  app.get("/lab5/todos/:id/completed/:completed", (res,req) =>{
-    const { id, completed } = req.params;
-    const todo = todos.find((t) => t.id === parseInt(id));
-    res.json(todo);
-  })
-
 }
