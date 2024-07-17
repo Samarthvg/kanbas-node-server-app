@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "kanbas-node-server-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Node.js HTTP web server for Kanbas application",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samarthvg/kanbas-node-server-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Samarthvg/kanbas-node-server-app/issues"
+  },
+  "homepage": "https://github.com/Samarthvg/kanbas-node-server-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
