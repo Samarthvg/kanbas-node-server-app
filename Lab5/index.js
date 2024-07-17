@@ -8,7 +8,7 @@ export default function Lab5(app) {
     res.send("Welcome to Lab 5");
   });
 
-  app.get("/", (res,req) => {
+  app.get("/", (req,res) => {
     res.send("Kanbas-node-server-app. Developed by Samarth.")
   })
 
