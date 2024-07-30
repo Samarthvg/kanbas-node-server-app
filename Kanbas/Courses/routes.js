@@ -8,7 +8,6 @@ export default function CourseRoutes(app) {
         );
         res.sendStatus(204);
       });
-    
     app.delete("/api/courses/:id", (req, res) => {
         const { id } = req.params;
         Database.courses = Database.courses.filter((c) => c._id !== id);
