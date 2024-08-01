@@ -33,14 +33,11 @@ export default function UserRoutes(app) {
     }
   };
 
-
-
   const signout = (req, res) => {
     req.session.destroy();
 
     res.sendStatus(200);
   };
-
   
   const profile = (req, res) => {
     const currentUser = req.session["currentUser"];
